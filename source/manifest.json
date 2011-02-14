@@ -1,0 +1,21 @@
+{
+  "name": "Teambox",
+  "version": "0.0.1",
+  "description": "Teambox is your best friend, when you need to work",
+  "omnibox": { "keyword" : "tb" },
+  "browser_action": {
+    "default_icon": "ikona128.png",
+    "default_title": "Teambox"
+  },
+
+	"icons": {"16": "ikona16.png",
+            "48": "ikona48.png",
+	          "128": "ikona128.png" },
+  "background_page": "background.html",
+  "permissions": [
+    "<all_urls>",
+    "unlimitedStorage",
+    "tabs",
+    "notifications"
+  ]
+}
